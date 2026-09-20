@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="ak-sun" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF9E44"/>
+      <stop offset="60%" stop-color="#E8720C"/>
+      <stop offset="100%" stop-color="#B84E00"/>
+    </linearGradient>
+    <linearGradient id="ak-green" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#22C55E"/>
+      <stop offset="100%" stop-color="#166534"/>
+    </linearGradient>
+    <linearGradient id="ak-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE68A"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#9A7B1C"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Base Rounded Badge -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#ak-sun)" filter="url(#shadow)"/>
+
+  <!-- Subtle Inner Border Accent -->
+  <rect x="4" y="4" width="56" height="56" rx="12" fill="none" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="1.5"/>
+
+  <!-- Akwa Ibom Rising Sun Rays Behind the Book -->
+  <g opacity="0.4" stroke="#FFE7BA" stroke-width="1.5" stroke-linecap="round">
+    <line x1="32" y1="12" x2="32" y2="7"/>
+    <line x1="22" y1="15" x2="18" y2="11"/>
+    <line x1="42" y1="15" x2="46" y2="11"/>
+    <line x1="14" y1="23" x2="9" y2="21"/>
+    <line x1="50" y1="23" x2="55" y2="21"/>
+  </g>
+
+  <!-- Open Heritage Book / Educational Scroll (Symbol of EduTranslate & Literacy) -->
+  <!-- Left Page -->
+  <path d="M12 43 C18 40 28 39 31 43 L31 23 C28 20 18 20 12 23 Z" fill="#FFFDF8"/>
+  <path d="M15 26 C19 24 25 24 28 26 M15 30 C19 28 25 28 28 30 M15 34 C19 32 25 32 28 34" stroke="#D4AF37" stroke-width="1.2" stroke-linecap="round"/>
+
+  <!-- Right Page -->
+  <path d="M52 43 C46 40 36 39 33 43 L33 23 C36 20 46 20 52 23 Z" fill="#FDF6EE"/>
+  <path d="M49 26 C45 24 39 24 36 26 M49 30 C45 28 39 28 36 30 M49 34 C45 32 39 32 36 34" stroke="#E8720C" stroke-width="1.2" stroke-linecap="round"/>
+
+  <!-- Book Spine / Ribbon Bookmark (Gold) -->
+  <path d="M31 22 L33 22 L33 46 L32 44.5 L31 46 Z" fill="url(#ak-gold)"/>
+
+  <!-- Lush Palm Fronds / Delta Laurel Arc (Representing Akwa Ibom's Green Delta & Land of Promise) -->
+  <!-- Left Palm Leaf -->
+  <path d="M14 50 C20 48 26 49 31 52 C26 53 19 54 14 50 Z" fill="url(#ak-green)"/>
+  <!-- Right Palm Leaf -->
+  <path d="M50 50 C44 48 38 49 33 52 C38 53 45 54 50 50 Z" fill="url(#ak-green)"/>
+
+  <!-- Central Coral Bead / Sunrise Dot -->
+  <circle cx="32" cy="18" r="3" fill="url(#ak-gold)" stroke="#FFF" stroke-width="0.8"/>
+</svg>
